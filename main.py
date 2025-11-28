@@ -1,11 +1,11 @@
 import pygame
 import sys
-from constants import *
-from logger import log_state, log_event
-from player import *
-from asteroid import *
-from asteroidfield import *
-from shot import *
+from src.config.constants import *
+from src.utils.logger import log_state, log_event
+from src.game.player import *
+from src.game.asteroid import *
+from src.game.asteroidfield import *
+from src.game.shot import *
 
 def main():
     pygame.init()
